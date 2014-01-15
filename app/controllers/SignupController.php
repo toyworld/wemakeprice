@@ -6,5 +6,9 @@
 		{
 			
 		}
+		public function registerAction()
+		{
+			
+		}
 	}
 ?>
