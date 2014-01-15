@@ -3,7 +3,7 @@
 	{
 		public function indexAction()
 		{
-			echo "<h1>Hello! my world</h1>";
+			
 		}
 	}
 ?>
