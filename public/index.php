@@ -1,7 +1,6 @@
 <?php
 	try {
-	
-	    //Register an autoloader
+		    //Register an autoloader
 	    $loader = new \Phalcon\Loader();
 	    $loader->registerDirs(array(
 	        '../app/controllers/',
@@ -19,11 +18,12 @@
 	    });
 	
 	    //Setup a base URI so that all generated URIs include the "tutorial" folder
+ 
 	    $di->set('url', function(){
 	        $url = new \Phalcon\Mvc\Url();
-	        $url->setBaseUri('/wemakeprice/');
+	        $url->setBaseUri('/');
 	        return $url;
-	    });
+       });
 	
 	    //Handle the request
 	    $application = new \Phalcon\Mvc\Application($di);
